@@ -1,4 +1,5 @@
 import pyautogui,time
+import sys
 time.sleep(5)
 with open("randomTexts.txt") as f:
     s = f.read()
